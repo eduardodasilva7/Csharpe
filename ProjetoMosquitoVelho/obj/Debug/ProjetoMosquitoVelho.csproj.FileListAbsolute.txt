@@ -33,3 +33,4 @@ C:\Users\eduardo.dsilva17\Documents\Visual Studio 2019\ProjetoCSharpCLivre\Proje
 C:\Users\eduardo.dsilva17\Documents\Visual Studio 2019\ProjetoCSharpCLivre\ProjetoMosquitoVelho\obj\Debug\ProjetoMosquitoVelho.frmTarefas.resources
 C:\Users\eduardo.dsilva17\Documents\Visual Studio 2019\ProjetoCSharpCLivre\ProjetoMosquitoVelho\obj\Debug\ProjetoMosquitoVelho.frmClientes.resources
 C:\Users\eduardo.dsilva17\Documents\Visual Studio 2019\ProjetoCSharpCLivre\ProjetoMosquitoVelho\obj\Debug\ProjetoMosquitoVelho.frmProdutos.resources
+C:\Users\eduardo.dsilva17\Documents\Visual Studio 2019\ProjetoCSharpCLivre\ProjetoMosquitoVelho\obj\Debug\ProjetoMosquitoVelho.frmListarProdutos.resources

@@ -41,16 +41,21 @@ namespace ProjetoMosquitoVelho
             this.Hide();
         }
 
-        private void btnInserir_Click(object sender, EventArgs e)
+        private void btnRemover_Click(object sender, EventArgs e)
         {
-           
-            ltbProdutos.Items.Add(txtProduto.Text);
-            txtProduto.Focus();
+            //txtProduto.Clear();
+            //ltbProdutos.Items.Remove(ltbProdutos.SelectedIndex);
+            ltbProdutos.Items.RemoveAt(ltbProdutos.SelectedIndex);
+
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnInserir_Click(object sender, EventArgs e)
         {
-            ltbProdutos.Items.Clear();
+            //ltbProdutos.Items.Clear();
+            ltbProdutos.Items.Add(txtProduto.Text);
+            txtProduto.Clear();
+            txtProduto.Focus();
         }
 
         private void txtProduto_KeyDown(object sender, KeyEventArgs e)
@@ -65,8 +70,16 @@ namespace ProjetoMosquitoVelho
 
         private void ltbProdutos_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //pegando o indice selecionado
             //lblEscolhido.Text = ltbProdutos.SelectedIndex.ToString();
-            lblEscolhido.Text = ltbProdutos.SelectedItem.ToString();
+
+            //pegando o valor selecionado
+            if (ltbProdutos.SelectedItem != null)
+            {
+                lblEscolhido.Text = ltbProdutos.SelectedItem.ToString();
+            }; 
         }
+
+       
     }
 }

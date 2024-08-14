@@ -43,9 +43,9 @@ namespace ProjetoMosquitoVelho
             this.lbl2 = new System.Windows.Forms.Label();
             this.ltbProdutos = new System.Windows.Forms.ListBox();
             this.txtProduto = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.lblProdutoSelecionado = new System.Windows.Forms.Label();
             this.lblEscolhido = new System.Windows.Forms.Label();
+            this.btnRemover = new System.Windows.Forms.Button();
             this.pnlCrud.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -186,17 +186,6 @@ namespace ProjetoMosquitoVelho
             this.txtProduto.TabIndex = 0;
             this.txtProduto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtProduto_KeyDown);
             // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(241, 130);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 32);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "&Retirar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // lblProdutoSelecionado
             // 
             this.lblProdutoSelecionado.AutoSize = true;
@@ -217,14 +206,25 @@ namespace ProjetoMosquitoVelho
             this.lblEscolhido.Size = new System.Drawing.Size(2, 22);
             this.lblEscolhido.TabIndex = 9;
             // 
+            // btnRemover
+            // 
+            this.btnRemover.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnRemover.Location = new System.Drawing.Point(229, 130);
+            this.btnRemover.Name = "btnRemover";
+            this.btnRemover.Size = new System.Drawing.Size(87, 32);
+            this.btnRemover.TabIndex = 10;
+            this.btnRemover.Text = "&Remover";
+            this.btnRemover.UseVisualStyleBackColor = true;
+            this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
+            // 
             // frmProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.lblEscolhido);
             this.Controls.Add(this.lblProdutoSelecionado);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtProduto);
             this.Controls.Add(this.ltbProdutos);
             this.Controls.Add(this.lbl2);
@@ -259,8 +259,8 @@ namespace ProjetoMosquitoVelho
         private System.Windows.Forms.Label lbl2;
         private System.Windows.Forms.ListBox ltbProdutos;
         private System.Windows.Forms.TextBox txtProduto;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblProdutoSelecionado;
         private System.Windows.Forms.Label lblEscolhido;
+        private System.Windows.Forms.Button btnRemover;
     }
 }
