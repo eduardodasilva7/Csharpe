@@ -43,6 +43,10 @@ namespace ProjetoMosquitoVelho
             this.cmbProdutos = new System.Windows.Forms.ComboBox();
             this.lblProdutos = new System.Windows.Forms.Label();
             this.lblListaProdutos = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmbListarItens = new System.Windows.Forms.ComboBox();
+            this.btnTestarPessoa = new System.Windows.Forms.Button();
+            this.lblTestarPessoa = new System.Windows.Forms.Label();
             this.pnlCrud.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -130,10 +134,40 @@ namespace ProjetoMosquitoVelho
             resources.ApplyResources(this.lblListaProdutos, "lblListaProdutos");
             this.lblListaProdutos.Name = "lblListaProdutos";
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // cmbListarItens
+            // 
+            resources.ApplyResources(this.cmbListarItens, "cmbListarItens");
+            this.cmbListarItens.FormattingEnabled = true;
+            this.cmbListarItens.Items.AddRange(new object[] {
+            resources.GetString("cmbListarItens.Items")});
+            this.cmbListarItens.Name = "cmbListarItens";
+            this.cmbListarItens.MouseClick += new System.Windows.Forms.MouseEventHandler(this.cmbListarItens_MouseClick);
+            // 
+            // btnTestarPessoa
+            // 
+            resources.ApplyResources(this.btnTestarPessoa, "btnTestarPessoa");
+            this.btnTestarPessoa.Name = "btnTestarPessoa";
+            this.btnTestarPessoa.UseVisualStyleBackColor = true;
+            this.btnTestarPessoa.Click += new System.EventHandler(this.btnTestarPessoa_Click);
+            // 
+            // lblTestarPessoa
+            // 
+            resources.ApplyResources(this.lblTestarPessoa, "lblTestarPessoa");
+            this.lblTestarPessoa.Name = "lblTestarPessoa";
+            // 
             // frmListarProdutos
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblTestarPessoa);
+            this.Controls.Add(this.btnTestarPessoa);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cmbListarItens);
             this.Controls.Add(this.lblListaProdutos);
             this.Controls.Add(this.lblProdutos);
             this.Controls.Add(this.cmbProdutos);
@@ -165,5 +199,9 @@ namespace ProjetoMosquitoVelho
         private System.Windows.Forms.ComboBox cmbProdutos;
         private System.Windows.Forms.Label lblProdutos;
         private System.Windows.Forms.Label lblListaProdutos;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cmbListarItens;
+        private System.Windows.Forms.Button btnTestarPessoa;
+        private System.Windows.Forms.Label lblTestarPessoa;
     }
 }

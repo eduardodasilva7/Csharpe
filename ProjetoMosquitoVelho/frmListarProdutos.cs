@@ -56,7 +56,7 @@ namespace ProjetoMosquitoVelho
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-            frmMenuPrincipal abrir = new frmMenuPrincipal();
+            frmLogin abrir = new frmLogin();
             abrir.Show();
             this.Hide();
         }
@@ -86,6 +86,34 @@ namespace ProjetoMosquitoVelho
                 ltbListaProdutos.Items.Add(produtos[i]);
             }
             
+        }
+
+        private void cmbListarItens_MouseClick(object sender, MouseEventArgs e)
+        {
+            produtos[0] = "Banana";
+            produtos[1] = "Morango";
+            produtos[2] = "Melao";
+            produtos[3] = "Manga";
+            produtos[4] = "Uva";
+            produtos[5] = "Pera";
+            produtos[6] = "Amora";
+            produtos[7] = "Jabuticaba";
+            produtos[8] = "Jaca";
+            produtos[9] = "Laranja";
+
+            cmbListarItens.Items.Clear();
+
+            for (int i = 0; i < produtos.Length; i++)
+            {
+                cmbListarItens.Items.Add(produtos[i]);
+            }
+        }
+
+        private void btnTestarPessoa_Click(object sender, EventArgs e)
+        {
+            Pessoa p = new Pessoa();
+            p.Nome = "Senac";
+            lblTestarPessoa.Text = p.Nome;
         }
     }
 }

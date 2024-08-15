@@ -327,13 +327,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnlCrud.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="btnCarregar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="btnCarregar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 253</value>
+    <value>311, 240</value>
   </data>
   <data name="btnCarregar.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 49</value>
@@ -354,7 +354,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCarregar.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="ltbListaProdutos.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -363,7 +363,7 @@
     <value>20</value>
   </data>
   <data name="ltbListaProdutos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>456, 138</value>
+    <value>482, 125</value>
   </data>
   <data name="ltbListaProdutos.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 164</value>
@@ -381,13 +381,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ltbListaProdutos.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="cmbProdutos.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="cmbProdutos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 138</value>
+    <value>131, 125</value>
   </data>
   <data name="cmbProdutos.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 28</value>
@@ -405,7 +405,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmbProdutos.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="lblProdutos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -414,7 +414,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="lblProdutos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 115</value>
+    <value>127, 102</value>
   </data>
   <data name="lblProdutos.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 20</value>
@@ -435,7 +435,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblProdutos.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="lblListaProdutos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -444,7 +444,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="lblListaProdutos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>455, 115</value>
+    <value>481, 102</value>
   </data>
   <data name="lblListaProdutos.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 20</value>
@@ -465,6 +465,127 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblListaProdutos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 102</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbListarItens.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="cmbListarItens.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbListarItens.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 125</value>
+  </data>
+  <data name="cmbListarItens.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 28</value>
+  </data>
+  <data name="cmbListarItens.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cmbListarItens.Name" xml:space="preserve">
+    <value>cmbListarItens</value>
+  </data>
+  <data name="&gt;&gt;cmbListarItens.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbListarItens.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbListarItens.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnTestarPessoa.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnTestarPessoa.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTestarPessoa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 240</value>
+  </data>
+  <data name="btnTestarPessoa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 49</value>
+  </data>
+  <data name="btnTestarPessoa.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnTestarPessoa.Text" xml:space="preserve">
+    <value>&amp;Testar pessoa</value>
+  </data>
+  <data name="&gt;&gt;btnTestarPessoa.Name" xml:space="preserve">
+    <value>btnTestarPessoa</value>
+  </data>
+  <data name="&gt;&gt;btnTestarPessoa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTestarPessoa.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTestarPessoa.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblTestarPessoa.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTestarPessoa.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblTestarPessoa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 197</value>
+  </data>
+  <data name="lblTestarPessoa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 20</value>
+  </data>
+  <data name="lblTestarPessoa.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblTestarPessoa.Text" xml:space="preserve">
+    <value>Mostra pessoa</value>
+  </data>
+  <data name="&gt;&gt;lblTestarPessoa.Name" xml:space="preserve">
+    <value>lblTestarPessoa</value>
+  </data>
+  <data name="&gt;&gt;lblTestarPessoa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTestarPessoa.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTestarPessoa.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -1608,7 +1729,6 @@
         //////////////////////////////////8=
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
