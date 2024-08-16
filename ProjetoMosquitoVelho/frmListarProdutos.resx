@@ -118,178 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnLimpar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnLimpar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>572, 13</value>
-  </data>
-  <data name="btnLimpar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 37</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnLimpar.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="btnLimpar.Text" xml:space="preserve">
-    <value>&amp;Limpar</value>
-  </data>
-  <data name="&gt;&gt;btnLimpar.Name" xml:space="preserve">
-    <value>btnLimpar</value>
-  </data>
-  <data name="&gt;&gt;btnLimpar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnLimpar.Parent" xml:space="preserve">
-    <value>pnlCrud</value>
-  </data>
-  <data name="&gt;&gt;btnLimpar.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnNovo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnNovo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 13</value>
-  </data>
-  <data name="btnNovo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 37</value>
-  </data>
-  <data name="btnNovo.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btnNovo.Text" xml:space="preserve">
-    <value>&amp;Novo</value>
-  </data>
-  <data name="&gt;&gt;btnNovo.Name" xml:space="preserve">
-    <value>btnNovo</value>
-  </data>
-  <data name="&gt;&gt;btnNovo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnNovo.Parent" xml:space="preserve">
-    <value>pnlCrud</value>
-  </data>
-  <data name="&gt;&gt;btnNovo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnCadastrar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnCadastrar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 13</value>
-  </data>
-  <data name="btnCadastrar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 37</value>
-  </data>
-  <data name="btnCadastrar.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnCadastrar.Text" xml:space="preserve">
-    <value>&amp;Cadastrar</value>
-  </data>
-  <data name="&gt;&gt;btnCadastrar.Name" xml:space="preserve">
-    <value>btnCadastrar</value>
-  </data>
-  <data name="&gt;&gt;btnCadastrar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCadastrar.Parent" xml:space="preserve">
-    <value>pnlCrud</value>
-  </data>
-  <data name="&gt;&gt;btnCadastrar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnAlterar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnAlterar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 13</value>
-  </data>
-  <data name="btnAlterar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 37</value>
-  </data>
-  <data name="btnAlterar.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnAlterar.Text" xml:space="preserve">
-    <value>&amp;Alterar</value>
-  </data>
-  <data name="&gt;&gt;btnAlterar.Name" xml:space="preserve">
-    <value>btnAlterar</value>
-  </data>
-  <data name="&gt;&gt;btnAlterar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAlterar.Parent" xml:space="preserve">
-    <value>pnlCrud</value>
-  </data>
-  <data name="&gt;&gt;btnAlterar.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnExcluir.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnExcluir.Location" type="System.Drawing.Point, System.Drawing">
-    <value>345, 13</value>
-  </data>
-  <data name="btnExcluir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 37</value>
-  </data>
-  <data name="btnExcluir.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnExcluir.Text" xml:space="preserve">
-    <value>&amp;Excluir</value>
-  </data>
-  <data name="&gt;&gt;btnExcluir.Name" xml:space="preserve">
-    <value>btnExcluir</value>
-  </data>
-  <data name="&gt;&gt;btnExcluir.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnExcluir.Parent" xml:space="preserve">
-    <value>pnlCrud</value>
-  </data>
-  <data name="&gt;&gt;btnExcluir.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnPesquisar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnPesquisar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 13</value>
-  </data>
-  <data name="btnPesquisar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 37</value>
-  </data>
-  <data name="btnPesquisar.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnPesquisar.Text" xml:space="preserve">
-    <value>&amp;Pesquisar</value>
-  </data>
-  <data name="&gt;&gt;btnPesquisar.Name" xml:space="preserve">
-    <value>btnPesquisar</value>
-  </data>
-  <data name="&gt;&gt;btnPesquisar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnPesquisar.Parent" xml:space="preserve">
-    <value>pnlCrud</value>
-  </data>
-  <data name="&gt;&gt;btnPesquisar.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="btnVoltar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="btnVoltar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>685, 13</value>
+    <value>66, 382</value>
   </data>
   <data name="btnVoltar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 37</value>
+    <value>121, 43</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnVoltar.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -303,37 +141,16 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnVoltar.Parent" xml:space="preserve">
-    <value>pnlCrud</value>
-  </data>
-  <data name="&gt;&gt;btnVoltar.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="pnlCrud.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 392</value>
-  </data>
-  <data name="pnlCrud.Size" type="System.Drawing.Size, System.Drawing">
-    <value>802, 61</value>
-  </data>
-  <data name="pnlCrud.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pnlCrud.Name" xml:space="preserve">
-    <value>pnlCrud</value>
-  </data>
-  <data name="&gt;&gt;pnlCrud.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlCrud.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnlCrud.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;btnVoltar.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="btnCarregar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="btnCarregar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>311, 240</value>
+    <value>66, 229</value>
   </data>
   <data name="btnCarregar.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 49</value>
@@ -354,7 +171,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCarregar.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>16</value>
   </data>
   <data name="ltbListaProdutos.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -363,7 +180,7 @@
     <value>20</value>
   </data>
   <data name="ltbListaProdutos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 125</value>
+    <value>218, 101</value>
   </data>
   <data name="ltbListaProdutos.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 164</value>
@@ -381,13 +198,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ltbListaProdutos.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>15</value>
   </data>
   <data name="cmbProdutos.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="cmbProdutos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 125</value>
+    <value>66, 101</value>
   </data>
   <data name="cmbProdutos.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 28</value>
@@ -405,7 +222,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmbProdutos.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>14</value>
   </data>
   <data name="lblProdutos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -414,7 +231,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="lblProdutos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 102</value>
+    <value>62, 78</value>
   </data>
   <data name="lblProdutos.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 20</value>
@@ -435,7 +252,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblProdutos.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>13</value>
   </data>
   <data name="lblListaProdutos.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -444,7 +261,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="lblListaProdutos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>481, 102</value>
+    <value>217, 78</value>
   </data>
   <data name="lblListaProdutos.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 20</value>
@@ -465,7 +282,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblListaProdutos.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>11</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -478,7 +295,7 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>307, 102</value>
+    <value>62, 151</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 20</value>
@@ -499,7 +316,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>9</value>
   </data>
   <data name="cmbListarItens.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -508,7 +325,7 @@
     <value />
   </data>
   <data name="cmbListarItens.Location" type="System.Drawing.Point, System.Drawing">
-    <value>311, 125</value>
+    <value>66, 174</value>
   </data>
   <data name="cmbListarItens.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 28</value>
@@ -526,7 +343,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmbListarItens.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>10</value>
   </data>
   <data name="btnTestarPessoa.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -535,7 +352,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnTestarPessoa.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 240</value>
+    <value>66, 303</value>
   </data>
   <data name="btnTestarPessoa.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 49</value>
@@ -556,7 +373,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnTestarPessoa.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>8</value>
   </data>
   <data name="lblTestarPessoa.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -565,7 +382,7 @@
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
   <data name="lblTestarPessoa.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 197</value>
+    <value>236, 303</value>
   </data>
   <data name="lblTestarPessoa.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 20</value>
@@ -586,6 +403,219 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblTestarPessoa.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnReservar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnReservar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReservar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 247</value>
+  </data>
+  <data name="btnReservar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 49</value>
+  </data>
+  <data name="btnReservar.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnReservar.Text" xml:space="preserve">
+    <value>&amp;Reservar</value>
+  </data>
+  <data name="&gt;&gt;btnReservar.Name" xml:space="preserve">
+    <value>btnReservar</value>
+  </data>
+  <data name="&gt;&gt;btnReservar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReservar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReservar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblNumCartao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNumCartao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblNumCartao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNumCartao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 144</value>
+  </data>
+  <data name="lblNumCartao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 20</value>
+  </data>
+  <data name="lblNumCartao.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblNumCartao.Text" xml:space="preserve">
+    <value>Numero do Cartão</value>
+  </data>
+  <data name="&gt;&gt;lblNumCartao.Name" xml:space="preserve">
+    <value>lblNumCartao</value>
+  </data>
+  <data name="&gt;&gt;lblNumCartao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumCartao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblNumCartao.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblDocumento.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDocumento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblDocumento.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDocumento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 78</value>
+  </data>
+  <data name="lblDocumento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="lblDocumento.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblDocumento.Text" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="&gt;&gt;lblDocumento.Name" xml:space="preserve">
+    <value>lblDocumento</value>
+  </data>
+  <data name="&gt;&gt;lblDocumento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDocumento.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDocumento.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtDocumento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="txtDocumento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 105</value>
+  </data>
+  <data name="txtDocumento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 26</value>
+  </data>
+  <data name="txtDocumento.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtDocumento.Name" xml:space="preserve">
+    <value>txtDocumento</value>
+  </data>
+  <data name="&gt;&gt;txtDocumento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDocumento.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDocumento.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblMostrarDocumento.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMostrarDocumento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblMostrarDocumento.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMostrarDocumento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 111</value>
+  </data>
+  <data name="lblMostrarDocumento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="lblMostrarDocumento.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblMostrarDocumento.Text" xml:space="preserve">
+    <value>Mostrar Documento</value>
+  </data>
+  <data name="&gt;&gt;lblMostrarDocumento.Name" xml:space="preserve">
+    <value>lblMostrarDocumento</value>
+  </data>
+  <data name="&gt;&gt;lblMostrarDocumento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMostrarDocumento.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMostrarDocumento.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblMostrarNumDocumento.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMostrarNumDocumento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="lblMostrarNumDocumento.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMostrarNumDocumento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 174</value>
+  </data>
+  <data name="lblMostrarNumDocumento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 20</value>
+  </data>
+  <data name="lblMostrarNumDocumento.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblMostrarNumDocumento.Text" xml:space="preserve">
+    <value>Mostrar Numero do Cartão</value>
+  </data>
+  <data name="&gt;&gt;lblMostrarNumDocumento.Name" xml:space="preserve">
+    <value>lblMostrarNumDocumento</value>
+  </data>
+  <data name="&gt;&gt;lblMostrarNumDocumento.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMostrarNumDocumento.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMostrarNumDocumento.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mtbNumCartao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="mtbNumCartao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 174</value>
+  </data>
+  <data name="mtbNumCartao.Mask" xml:space="preserve">
+    <value>000,000,000-00</value>
+  </data>
+  <data name="mtbNumCartao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 26</value>
+  </data>
+  <data name="mtbNumCartao.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;mtbNumCartao.Name" xml:space="preserve">
+    <value>mtbNumCartao</value>
+  </data>
+  <data name="&gt;&gt;mtbNumCartao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtbNumCartao.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtbNumCartao.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -595,7 +625,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>864, 480</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

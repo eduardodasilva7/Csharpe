@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bilhete.cs" />
     <Compile Include="frmCalculadora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +120,7 @@
       <DependentUpon>frmTarefas.cs</DependentUpon>
     </Compile>
     <Compile Include="Operacoes.cs" />
+    <Compile Include="Passageiro.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

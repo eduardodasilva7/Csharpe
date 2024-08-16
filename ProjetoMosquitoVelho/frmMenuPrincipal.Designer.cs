@@ -95,6 +95,7 @@ namespace ProjetoMosquitoVelho
             this.btnEvento.Text = "&Eventos";
             this.btnEvento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEvento.UseVisualStyleBackColor = true;
+            this.btnEvento.Click += new System.EventHandler(this.btnEvento_Click);
             // 
             // btnOrcamentos
             // 

@@ -30,13 +30,6 @@ namespace ProjetoMosquitoVelho
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListarProdutos));
-            this.pnlCrud = new System.Windows.Forms.Panel();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnNovo = new System.Windows.Forms.Button();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-            this.btnAlterar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
-            this.btnPesquisar = new System.Windows.Forms.Button();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnCarregar = new System.Windows.Forms.Button();
             this.ltbListaProdutos = new System.Windows.Forms.ListBox();
@@ -47,56 +40,14 @@ namespace ProjetoMosquitoVelho
             this.cmbListarItens = new System.Windows.Forms.ComboBox();
             this.btnTestarPessoa = new System.Windows.Forms.Button();
             this.lblTestarPessoa = new System.Windows.Forms.Label();
-            this.pnlCrud.SuspendLayout();
+            this.btnReservar = new System.Windows.Forms.Button();
+            this.lblNumCartao = new System.Windows.Forms.Label();
+            this.lblDocumento = new System.Windows.Forms.Label();
+            this.txtDocumento = new System.Windows.Forms.TextBox();
+            this.lblMostrarDocumento = new System.Windows.Forms.Label();
+            this.lblMostrarNumDocumento = new System.Windows.Forms.Label();
+            this.mtbNumCartao = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
-            // 
-            // pnlCrud
-            // 
-            this.pnlCrud.Controls.Add(this.btnLimpar);
-            this.pnlCrud.Controls.Add(this.btnNovo);
-            this.pnlCrud.Controls.Add(this.btnCadastrar);
-            this.pnlCrud.Controls.Add(this.btnAlterar);
-            this.pnlCrud.Controls.Add(this.btnExcluir);
-            this.pnlCrud.Controls.Add(this.btnPesquisar);
-            this.pnlCrud.Controls.Add(this.btnVoltar);
-            resources.ApplyResources(this.pnlCrud, "pnlCrud");
-            this.pnlCrud.Name = "pnlCrud";
-            // 
-            // btnLimpar
-            // 
-            resources.ApplyResources(this.btnLimpar, "btnLimpar");
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            // 
-            // btnNovo
-            // 
-            resources.ApplyResources(this.btnNovo, "btnNovo");
-            this.btnNovo.Name = "btnNovo";
-            this.btnNovo.UseVisualStyleBackColor = true;
-            // 
-            // btnCadastrar
-            // 
-            resources.ApplyResources(this.btnCadastrar, "btnCadastrar");
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            // 
-            // btnAlterar
-            // 
-            resources.ApplyResources(this.btnAlterar, "btnAlterar");
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
-            // 
-            // btnExcluir
-            // 
-            resources.ApplyResources(this.btnExcluir, "btnExcluir");
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.UseVisualStyleBackColor = true;
-            // 
-            // btnPesquisar
-            // 
-            resources.ApplyResources(this.btnPesquisar, "btnPesquisar");
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.UseVisualStyleBackColor = true;
             // 
             // btnVoltar
             // 
@@ -160,39 +111,74 @@ namespace ProjetoMosquitoVelho
             resources.ApplyResources(this.lblTestarPessoa, "lblTestarPessoa");
             this.lblTestarPessoa.Name = "lblTestarPessoa";
             // 
+            // btnReservar
+            // 
+            resources.ApplyResources(this.btnReservar, "btnReservar");
+            this.btnReservar.Name = "btnReservar";
+            this.btnReservar.UseVisualStyleBackColor = true;
+            this.btnReservar.Click += new System.EventHandler(this.btnReservar_Click);
+            // 
+            // lblNumCartao
+            // 
+            resources.ApplyResources(this.lblNumCartao, "lblNumCartao");
+            this.lblNumCartao.Name = "lblNumCartao";
+            // 
+            // lblDocumento
+            // 
+            resources.ApplyResources(this.lblDocumento, "lblDocumento");
+            this.lblDocumento.Name = "lblDocumento";
+            // 
+            // txtDocumento
+            // 
+            resources.ApplyResources(this.txtDocumento, "txtDocumento");
+            this.txtDocumento.Name = "txtDocumento";
+            // 
+            // lblMostrarDocumento
+            // 
+            resources.ApplyResources(this.lblMostrarDocumento, "lblMostrarDocumento");
+            this.lblMostrarDocumento.Name = "lblMostrarDocumento";
+            // 
+            // lblMostrarNumDocumento
+            // 
+            resources.ApplyResources(this.lblMostrarNumDocumento, "lblMostrarNumDocumento");
+            this.lblMostrarNumDocumento.Name = "lblMostrarNumDocumento";
+            // 
+            // mtbNumCartao
+            // 
+            resources.ApplyResources(this.mtbNumCartao, "mtbNumCartao");
+            this.mtbNumCartao.Name = "mtbNumCartao";
+            // 
             // frmListarProdutos
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.mtbNumCartao);
+            this.Controls.Add(this.lblMostrarDocumento);
+            this.Controls.Add(this.lblMostrarNumDocumento);
+            this.Controls.Add(this.txtDocumento);
+            this.Controls.Add(this.lblDocumento);
+            this.Controls.Add(this.lblNumCartao);
+            this.Controls.Add(this.btnReservar);
             this.Controls.Add(this.lblTestarPessoa);
             this.Controls.Add(this.btnTestarPessoa);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cmbListarItens);
             this.Controls.Add(this.lblListaProdutos);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.lblProdutos);
             this.Controls.Add(this.cmbProdutos);
             this.Controls.Add(this.ltbListaProdutos);
             this.Controls.Add(this.btnCarregar);
-            this.Controls.Add(this.pnlCrud);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MinimizeBox = false;
             this.Name = "frmListarProdutos";
             this.Load += new System.EventHandler(this.frmListarProdutos_Load);
-            this.pnlCrud.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel pnlCrud;
-        private System.Windows.Forms.Button btnLimpar;
-        private System.Windows.Forms.Button btnNovo;
-        private System.Windows.Forms.Button btnCadastrar;
-        private System.Windows.Forms.Button btnAlterar;
-        private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button btnCarregar;
         private System.Windows.Forms.ListBox ltbListaProdutos;
@@ -203,5 +189,12 @@ namespace ProjetoMosquitoVelho
         private System.Windows.Forms.ComboBox cmbListarItens;
         private System.Windows.Forms.Button btnTestarPessoa;
         private System.Windows.Forms.Label lblTestarPessoa;
+        private System.Windows.Forms.Button btnReservar;
+        private System.Windows.Forms.Label lblNumCartao;
+        private System.Windows.Forms.Label lblDocumento;
+        private System.Windows.Forms.TextBox txtDocumento;
+        private System.Windows.Forms.Label lblMostrarDocumento;
+        private System.Windows.Forms.Label lblMostrarNumDocumento;
+        private System.Windows.Forms.MaskedTextBox mtbNumCartao;
     }
 }
